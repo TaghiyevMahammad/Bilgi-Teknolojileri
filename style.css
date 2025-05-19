@@ -81,7 +81,6 @@ nav button {
   height: 73px;
   border: none;
   border-radius: 8px;
-  padding-right: 150px; 
   font-size: 16px;
   box-sizing: border-box;
 }
@@ -130,7 +129,7 @@ nav button {
         padding-right: 22px;
     }
     .input-wrapper {
-        width: max-content;
+        width: 100%;;
     }
 
     nav ul  button {
@@ -396,20 +395,21 @@ nav button {
     background-color: white;
     margin-bottom: 20px;
     border-radius: 10px;
-    padding: 8px 16px;
+    width: 170px;
+    height: 96px;
+    object-fit: none;
 }
 
 .btn {
-    padding: 32px;
+    padding: 38px;
     color: #F84646;
     background-color: white;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    margin-left: 35px;
 }
 
-@media  screen and (max-width:976px) {
+@media  screen and (max-width:1050px) {
     .logos {
         flex-direction: column;
     }
